@@ -7,6 +7,7 @@ class String
       return true
     else
       return false
+    end
   end
 
   def question?
@@ -14,13 +15,19 @@ class String
       return true
     else
       return false
+    end
   end
 
   def exclamation?
-
+    if String.end_with?("!")
+      return true
+    else
+      return false
+    end
   end
 
   def count_sentences
-
+    String.split
+    String.count
   end
 end
