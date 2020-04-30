@@ -27,8 +27,6 @@ class String
   end
 
   def count_sentences
-    String.split
-    String.count
-    binding.pry
+    new_array = 
   end
 end
